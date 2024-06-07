@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <a href='#'>
+      <a>
         <h1 className="heading">
             <span className="ledg">Ledg</span>
             <span className="it">it</span>
@@ -23,8 +23,8 @@ const Navbar = () => {
       </div>
       : 
       <div className="right-section-after-login">
-        <a href='#' className="login-btn">Login</a>
-        <a href="#" className="register-btn">Register</a>
+        <a className="login-btn">Login</a>
+        <a className="register-btn">Register</a>
       </div>
       
       }
