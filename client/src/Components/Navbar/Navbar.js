@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <a>
+      <a href='https://www.google.com/'>
         <h1 className="heading">
             <span className="ledg">Ledg</span>
             <span className="it">it</span>
@@ -15,16 +15,16 @@ const Navbar = () => {
       </a>
       {isloggedin ? 
       <div className="right-section-before-login">
-        <a className="notifications-btn">
+        <a href="https://www.google.com/" className="notifications-btn">
            Notifications
         </a>
-        <a className="post-btn">Post</a>
-        <a className="profile-btn">Profile</a> {/* profile should contain a circle with a letter-> containing profile, settings, logout */}
+        <a href="https://www.google.com/" className="post-btn">Post</a>
+        <a href="https://www.google.com/" className="profile-btn">Profile</a> {/* profile should contain a circle with a letter-> containing profile, settings, logout */}
       </div>
       : 
       <div className="right-section-after-login">
-        <a className="login-btn">Login</a>
-        <a className="register-btn">Register</a>
+        <a href="https://www.google.com/" className="login-btn">Login</a>
+        <a href="https://www.google.com/" className="register-btn">Register</a>
       </div>
       
       }
