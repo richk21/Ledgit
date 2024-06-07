@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px; 
+    margin: var(--spacing-sm) var(--spacing-5xl) 0 var(--spacing-5xl);
+  }
+  
+  .heading {
+    font-size: var(--heading---l---bold);
+    display: inline;
+  }
+
+  .heading .ledg {
+    color: darkgreen;
+  }
+  
+  .heading .it {
+    color: black;
+  }
+  
+  .right-section-before-login,
+  .right-section-after-login {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+  }
+  
+  .login-btn,
+  .register-btn,
+  .notifications-btn,
+  .post-btn,
+  .profile-btn {
+    margin-left: 10px; /* Adjust margin between buttons as needed */
+  }
+
+  a{
+    text-decoration: none;
+  }
+  

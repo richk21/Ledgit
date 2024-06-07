@@ -1,0 +1,31 @@
+.carousel-container {
+    align-items: center;
+    position: relative;
+    width: 100%; /* Adjust to your desired width */
+    height: 3000px; /* Adjust to your desired height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    scroll-snap-type: y mandatory; /* Enable snapping */
+}
+
+.carousel-content {
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Position for overlap */
+    align-items: center;
+}
+
+.carousel-content > * {
+    height: 70%; /* Each post takes 70% of the container height to overlap 30% */
+    flex: 0 0 auto; /* Ensure flex item does not grow or shrink */
+    box-sizing: border-box;
+    margin-bottom: -2.5%; /* Negative margin to create the overlap */
+    scroll-snap-align: start;  /* Align posts at the start of the container */
+    transition: transform 0.3s, z-index 0.3s; /* Smooth transform and z-index on hover */
+    z-index: 1; /* Default z-index */
+}
+
+.carousel-content > *:hover {
+    transform: scale(1.1); /* Scale up the post */
+    z-index: 10; /* Bring the post forward */
+}

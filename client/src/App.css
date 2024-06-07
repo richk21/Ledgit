@@ -1,0 +1,14 @@
+body,
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.AppContainer {
+  height: 79vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  align-items: center;
+  z-index: 10000;
+}
