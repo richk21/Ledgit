@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React /* { useState } */ from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [isloggedin, setLoggedIn] = useState(false);
+  /* const [isloggedin, setLoggedIn] = useState(false); */
+  const isloggedin = false
 
   return (
     <div className="navbar">
@@ -14,11 +15,11 @@ const Navbar = () => {
       </a>
       {isloggedin ? 
       <div className="right-section-before-login">
-        <a href="#" className="notifications-btn">
+        <a className="notifications-btn">
            Notifications
         </a>
-        <a href="#" className="post-btn">Post</a>
-        <a href='#' className="profile-btn">Profile</a> {/* profile should contain a circle with a letter-> containing profile, settings, logout */}
+        <a className="post-btn">Post</a>
+        <a className="profile-btn">Profile</a> {/* profile should contain a circle with a letter-> containing profile, settings, logout */}
       </div>
       : 
       <div className="right-section-after-login">
