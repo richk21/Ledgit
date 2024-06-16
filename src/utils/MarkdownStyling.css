@@ -1,0 +1,39 @@
+.markdown-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.markdown-container h1{
+    margin:10px 0 2px 0;
+}
+
+.markdown-container h2{
+    margin:7px 0 2px 0;
+}
+
+.markdown-container h3{
+    margin:5px 0 2px 0;
+}
+
+.markdown-container h4{
+    margin:5px 0 2px 0;
+}
+
+.markdown-container h5{
+    margin:3px 0 2px 0;
+}
+
+.markdown-container h6{
+    margin:3px 0 2px 0;
+}
+.markdown-container h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+.markdown-container img{
+    display: flex;
+    justify-items: center;
+}

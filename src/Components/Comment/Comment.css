@@ -1,0 +1,22 @@
+.comment {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comment .author {
+    font-weight: bold;
+    color: #065fd4; /* YouTube blue */
+  }
+  
+  .comment .content {
+    margin-top: 8px;
+  }
+  
+  .comment .date {
+    color: #606060;
+    font-size: 0.9rem;
+  }
+  

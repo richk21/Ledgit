@@ -1,0 +1,9 @@
+.container {
+    align-items: center;
+    position: relative;
+    width: 100%; /* Adjust to your desired width */
+    height: auto; /* Adjust to your desired height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal overflow */
+    scroll-snap-type: y mandatory; /* Enable snapping */
+}

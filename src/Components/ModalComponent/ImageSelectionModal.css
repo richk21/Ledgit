@@ -1,0 +1,32 @@
+/* CSS for Pinterest-style tile view */
+.masonry-grid {
+    display: flex;
+    margin-left: -16px; /* Adjust as needed */
+    width: auto;
+  }
+  
+  .masonry-grid_column {
+    padding-left: 16px; /* Adjust as needed */
+    background-clip: padding-box;
+  }
+  
+  .image-item {
+    margin-bottom: 16px; /* Adjust as needed */
+  }
+  
+  .image-item img {
+    display: block;
+    border-radius: 8px; /* Adjust as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+  }
+  
+  .image-item img:hover {
+    transform: scale(1.05); /* Adjust as needed */
+  }
+
+  @media (max-width: 768px) {
+    .modal_title{
+        display: hidden;
+    }
+  }
+  

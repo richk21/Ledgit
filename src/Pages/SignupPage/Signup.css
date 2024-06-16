@@ -1,0 +1,63 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--shades---main-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(31, 58, 1, 0.1);
+    transition: all 0.3s ease; /* Adding transition for smoother hover effect */
+}
+
+.signup-container .title {
+    color: var(--success---main900);
+    font-size: var(--heading---x-s---bold);
+    font-weight: var(--weight--bold);
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-container .subtitle {
+    color: var(--neutral---main750);
+    font-size: clamp(16px, 1vw + 0.5px, 20px);
+    font-weight: 300;
+}
+
+.signup-form:hover {
+    transform: scale(1.05); /* Scale up the form on hover */
+}
+
+.signup-button {
+    transition: background-color 0.3s ease; /* Adding transition for smoother hover effect */
+}
+
+.signup-button:hover {
+    background-color: var(--success---main900); /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
+@media screen and (min-width: 768px) {
+    .signup-container {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center;
+        flex-direction: column;
+        width: 100%; /* Ensure the container takes full width */
+    }
+
+    .signup-form {
+        margin-top: 0;
+        margin-left: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

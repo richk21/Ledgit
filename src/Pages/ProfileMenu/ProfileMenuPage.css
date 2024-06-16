@@ -1,0 +1,7 @@
+.link {
+    color: var(--neutral---main750);
+}
+
+.link:hover {
+    color: var(--success---main700);
+}
